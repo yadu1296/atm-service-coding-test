@@ -21,7 +21,8 @@ public class AtmsRestApi {
 
     @RequestMapping(value = "/getAllAtms", method = RequestMethod.GET)
     public List<Atm> getAll() throws Exception {
-        System.out.println("hello");
+        //System.out.println("hello");
+    	System.out.println("hello1");
     	return atmService.getAllAtms(null);
     }
 
